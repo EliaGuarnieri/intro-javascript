@@ -1,0 +1,14 @@
+{
+  "index": "Introduzione",
+  "hello-world": "Hello, world!",
+  "variabili": "Variabili",
+  "data-types": "Data Types",
+  "operators": "Basic Operators",
+  "comparison": "Comparisons",
+  "conditional": "Conditional Statements",
+  "logical-operators": "Logical Operators",
+  "nullish-operators": "Nullish coaleshing operator '??'",
+  "loops": "Loops: while and for",
+  "switch": "'switch' statement",
+  "functions": "Functions"
+}

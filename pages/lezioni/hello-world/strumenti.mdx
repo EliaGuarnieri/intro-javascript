@@ -1,0 +1,74 @@
+# Gli strumenti base
+
+Partiamo impostanso il nostro ambiente di lavoro.
+
+---
+
+## IDE
+
+[Visual Studio Code](https://code.visualstudio.com/) è un editor di testo open source, multi piattaforma, che supporta la programmazione in molti linguaggi, è uno tra i più utilizzati al momento.
+
+![vscode](/hello-world/strumenti/vscode-screenshot-mac-lg-2x.png)
+
+VSCode è un editor di testo molto potente, che ci permette di scrivere codice, di eseguirlo, di debuggarlo, di gestire i repository git, di installare estensioni, di personalizzare il nostro ambiente di lavoro, e molto altro ancora.
+
+Passate un po' di tempo a familiarizzare con l'interfaccia di vscode, a conoscere le sue funzionalità e a personalizzarlo a vostro piacimento. Qui troverete una [guida](https://code.visualstudio.com/docs/getstarted/userinterface) per aiutarvi a conoscere l'interfaccia di vscode e qui una [guida](https://code.visualstudio.com/docs/getstarted/tips-and-tricks) per aiutarvi a conoscere le sue funzionalità.
+
+Per il momento ci concentreremo su alcune funzionalità che ci saranno utili per il nostro lavoro. Vediamo quindi come installare.
+
+### Estensioni
+
+Partiamo quindi installando alcune estensioni di vscode che ci saranno utili per il nostro lavoro.
+
+**Estensioni essenziali:**
+
+- [**ESLint**](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Linter per JavaScript
+- [**Prettier**](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Formattatore di codice
+
+**Estensioni opzionali:**
+
+- [**Auto Comment Blocks**](https://marketplace.visualstudio.com/items?itemName=kevinkyang.auto-comment-blocks) - Commenta automaticamente il codice
+- [**Auto Rename Tag**](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) - Rinomina automaticamente le tag HTML
+- [**Better Comments**](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) - Commenta il codice con colori
+- [**Colorize**](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize) - Colora i codici colori
+- [**Github Copilot**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) - Copilot di GitHub (necessita di un account)
+
+Per installare le estensioni, apri il pannello delle estensioni di vscode `⇧⌘X` e cerca l'estensione che vuoi installare. Clicca su installa e poi su riavvia.
+
+## Node.js
+
+Più avanti utilizzeremo React. React è una libreria JavaScript, quindi per poterlo utilizzare dobbiamo installare Node.js [Node.js](https://nodejs.org/), un runtime JavaScript open source, multi piattaforma, che permette di eseguire codice JavaScript al di fuori del browser. Node.js è basato sul motore JavaScript V8 di Chrome, usa un modello event-driven, non bloccante e orientato agli input/output, questo lo rende leggero e efficiente.
+
+Installando Node.js, avremo a disposizione anche il gestore di pacchetti: Node.js' package ecosystem, meglio conosciuto come npm, è il più grande ecosistema di librerie open source del mondo.
+
+Il gestore di pacchetti npm ci permette di installare librerie e framework, di creare progetti, di gestire le dipendenze, di eseguire script, e molto altro ancora.
+
+## Git
+
+Git è un sistema di controllo versione distribuito open source, multi piattaforma, che ci permette di gestire i nostri progetti, di collaborare con altri sviluppatori, di salvare il nostro lavoro, di creare repository. Git è uno strumento molto potente, che ci permette di gestire il nostro lavoro in modo efficiente e veloce. Per saperne di più su git, potete leggere la [guida](https://git-scm.com/book/it/v2) ufficiale.
+
+Per il momento ci concentreremo su alcune funzionalità che ci saranno utili per il nostro lavoro. Vediamo quindi come installare. Per installare git, potete seguire la [guida](https://git-scm.com/book/it/v2/Per-Iniziare-Installare-Git) ufficiale.
+
+### Git su macOS
+
+Scaricate Xcode dal Mac App Store e installatelo. Una volta installato, apri il terminale e digitate il seguente comando:
+
+```bash
+xcode-select --install
+```
+
+### Git su Windows
+
+In generale è possibile installare git su Windows in due modi:
+
+- Installando git direttamente da [qui](https://git-scm.com/download/win)
+- Installando WSL (Windows Subsystem for Linux) seguendo la [guida](https://docs.microsoft.com/it-it/windows/wsl/install-win10) ufficiale.
+
+Consiglio vivamente la seconda opzione, in quanto WSL è un ambiente Linux che potrete utilizzare per sviluppare in modo molto più efficiente.
+
+Installiamo WSL seguendo la [guida](https://docs.microsoft.com/it-it/windows/wsl/install-win10) ufficiale. Una volta installato, apriamo il terminale di WSL e digitiamo il seguente comando:
+
+```bash
+sudo apt update
+sudo apt install git
+```
